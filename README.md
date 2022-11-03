@@ -1,0 +1,2 @@
+# Goupil
+ Firefox stylesheet
