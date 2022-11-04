@@ -1,0 +1,23 @@
+/* Show URL buttons on Hover */
+   #nav-bar:not([customizing="true"])
+  > #nav-bar-customization-target
+  > #urlbar-container:not(:hover)
+  > #urlbar:not([focused])
+  > #urlbar-input-container
+  > #page-action-buttons {
+  opacity: 0;
+}
+#page-action-buttons {
+  transition: opacity 0.15s ease;
+}
+#nav-bar:not([customizing="true"])
+  > #nav-bar-customization-target
+  > #urlbar-container:not(:hover)
+  > #urlbar:not([focused])
+  > #urlbar-input-container
+  > #tracking-protection-icon-container {
+  opacity: 0;
+}
+#tracking-protection-icon-container {
+  transition: opacity 0.15s ease;
+}
