@@ -1,0 +1,31 @@
+/* move findbar to top right */
+.browserContainer>findbar {
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    contain: content;
+    border-radius: 0 0 var(--toolbarbutton-border-radius) var(--toolbarbutton-border-radius);
+}
+
+/* hide status */
+findbar .findbar-find-status {
+    display: none;
+}
+
+/* replace checkboxes with buttons */
+findbar .checkbox-check {
+    display: none !important;
+}
+
+findbar checkbox {
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--toolbarbutton-border-radius);
+    padding: 2px 4px;
+    margin: -2px 4px !important;
+    transition: 0.1s ease-in-out;
+}
+
+findbar checkbox[checked="true"] {
+    background: var(--button-active-bgcolor);
+    transition: 0.1s ease-in-out;
+}

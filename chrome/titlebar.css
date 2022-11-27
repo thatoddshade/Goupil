@@ -1,0 +1,4 @@
+/* hide title bar space */
+.titlebar-spacer {
+    display: none !important
+}

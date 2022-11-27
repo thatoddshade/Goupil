@@ -1,8 +1,5 @@
-@import "style/coloured_lock_icon.css";
-@import "style/auto_hide_sidebar.css";
-@import "style/animated_about_firefox_window.css";
-@import "style/sliding_bookmark_bar.css";
-@import "style/hide_unusable_buttons.css";
-@import "style/auto_hide_url_buttons.css";
-
-
+/* ui tweaks */
+@import "chrome/findbar.css";
+@import "chrome/titlebar.css";
+/* @import "chrome/sidebar.css" */
+@import "chrome/navbar.css"
