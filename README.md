@@ -1,34 +1,32 @@
-# Goupil
- Firefox stylesheet
+# goupil
+a Firefox stylesheet
 
-###### I named this repository "goupil" because it means "fox" 🦊 in old french 🇫🇷.
+###### „goupil“ is an old-fashioned way to say „fox“ in French.
 
-## How to install ?
-### Firefox installed from the official installer
-1. Open your currently active profile folder.
-* Type or paste `about:support` in the address bar and press Enter to load it.
-* Find the Profile Folder row and click "__Open Directory__" or "__Show in Finder__".
-2. Make a new folder named `chrome` (all lower case).
+## features
+- stolen (I forgot from whom =[) animated "About Firefox" window
+- automatically hiding sidebar
+- automatically hiding address bar buttons
+- coloured address bar security icon
+- automatically hiding disabled navigation (back and forward) buttons
+- animated bookmark bar
 
-### Firefox installed from the Miscroft Store
-1. Type or paste `%LOCALAPPDATA%\Packages` into the File Manager address bar and press Enter to launch into the Packages folder.
-2. Look for an entry starting with Mozilla.Firefox and click into that folder, then LocalCache, then Roaming, then Mozilla, then Firefox, then Profiles.
+## installation
 
-## Both cases
-3. Install theme.
-* Download "__userChrome.css__" and "__style__".
-* Put these in your "__chrome__" folder.
-4. Set Firefox look at userChrome.css at startup.
-* In a new tab, type or paste "__about:config__" in the address bar and press Enter/Return. Click the button accepting the risk.
-* In the search box type or paste "__userprof__", if you see `toolkit.legacyUserProfileCustomizations.stylesheets` then switch it to true.
+### on a regular Firefox installation
+1. open the profile directory of the profile on which is theme should be installed.
+* type or paste `about:support` in the address bar and press Enter to load it.
+* find the `Profile Folder` row and click, depending of the system, either `Open Directory` or `Show in Finder`.
+2. make a new folder named `chrome`.
 
-# Features
-Custom animated "About Firefox" window
-Auto hide sidebar
-Auto hide address bar buttons
-Coloured lock icon in address bar
-Auto hide disabled buttons (back, forward)
-Animated bookmark bar
+### on a Microsoft Store Firefox installation
+1. input `%LOCALAPPDATA%\Packages` into the File Manager address bar and press Enter.
+2. look for an entry starting with `Mozilla.Firefox` and click into that folder, then LocalCache, then Roaming, then Mozilla, then Firefox, then Profiles.
 
-# Notes
-You can mod this "theme" by removing lines of code in "__userChrome.css__" or by adding your own .css file in "__style__" and importing them in "__userChrome.css__".
+### on any Firefox installation
+3. install theme.
+* download `userChrome.css` and `style`.
+* put both in the `chrome` directory.
+4. make Firefox check `userChrome.css` at startup.
+* input `about:config` in the Firefox address bar and press Enter.
+* in the search bar, input `userprof`; if `toolkit.legacyUserProfileCustomizations.stylesheets` can be seen, toggle it on.
